@@ -57,4 +57,16 @@
     background-color: white;
 }
 /*fim dos containers*/
+/* medidas referencia bootstrap*/
 
+.android p{
+    display: none;
+}
+
+.tablet p{
+    display: none;
+}
+
+.desktop p{
+    display: inline;
+}
