@@ -37,3 +37,24 @@
     justify-content: center;
     align-content: center;
 }
+
+.lista{
+    background-color: brown;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.products{
+    width: 200px;
+    height: 250px;
+    margin: 40px 5px;
+
+    box-shadow: 5px 5px 5px 5px rgb(145, 145,);
+    border-radius: 4px;
+    background-color: white;
+}
+/*fim dos containers*/
+
