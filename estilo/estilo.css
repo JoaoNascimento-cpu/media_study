@@ -47,7 +47,7 @@
     flex-wrap: wrap;
 }
 
-.products{
+.produto{
     width: 200px;
     height: 250px;
     margin: 40px 5px;
@@ -58,7 +58,6 @@
 }
 /*fim dos containers*/
 /* medidas referencia bootstrap*/
-
 .android p{
     display: none;
 }
@@ -71,9 +70,9 @@
     display: inline;
 }
 
-/* small devices (android, 500px)*/
+/* small devices (android, 5px)*/
 
-@media (max-width: 500px){
+@media (max-width: 567px){
     .android p{
         display: inline;
     }
@@ -89,7 +88,7 @@
 
 /* medium divices (tablet, 900px)*/
 
-@media (max-width: 900px){
+@media (max-width: 768px){
     .android p{
         display: none;
     }
@@ -105,16 +104,3 @@
 
 /* large devices (desktop, 1200px*/
 
-@media (max-width: 1200px){
-    .android p{
-        display: none;
-    }
-
-    .tablet p{
-        display: none;
-    }
-
-    .desktop p{
-        display: inline;
-    }
-}
