@@ -70,3 +70,51 @@
 .desktop p{
     display: inline;
 }
+
+/* small devices (android, 500px)*/
+
+@media (max-width: 500px){
+    .android p{
+        display: inline;
+    }
+
+    .tablet p{
+        display: none;
+    }
+
+    .desktop p{
+        display: none;
+    }
+}
+
+/* medium divices (tablet, 900px)*/
+
+@media (max-width: 900px){
+    .android p{
+        display: none;
+    }
+
+    .tablet p{
+        display: inline;
+    }
+
+    .desktop p{
+        display: none;
+    }
+}
+
+/* large devices (desktop, 1200px*/
+
+@media (max-width: 1200px){
+    .android p{
+        display: none;
+    }
+
+    .tablet p{
+        display: none;
+    }
+
+    .desktop p{
+        display: inline;
+    }
+}
