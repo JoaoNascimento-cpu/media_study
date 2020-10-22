@@ -70,22 +70,6 @@
     display: inline;
 }
 
-/* small devices (android, 5px)*/
-
-@media (max-width: 567px){
-    .android p{
-        display: inline;
-    }
-
-    .tablet p{
-        display: none;
-    }
-
-    .desktop p{
-        display: none;
-    }
-}
-
 /* medium divices (tablet, 900px)*/
 
 @media (max-width: 768px){
@@ -101,6 +85,18 @@
         display: none;
     }
 }
+/* small devices (android, 5px)*/
 
-/* large devices (desktop, 1200px*/
+@media (max-width: 567px){
+    .android p{
+        display: inline;
+    }
 
+    .tablet p{
+        display: none;
+    }
+
+    .desktop p{
+        display: none;
+    }
+}
